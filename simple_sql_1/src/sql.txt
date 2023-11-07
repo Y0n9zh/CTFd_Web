@@ -1,0 +1,8 @@
+<?php
+
+    $sql = "SELECT * FROM users where id= {$_POST['id']}";
+    $result = mysqli_query($con, $sql);
+    $row = mysqli_fetch_array($result);
+    echo "name: " . $row['username'];
+    echo "<br />";
+    echo "pw: " . $row['password'];

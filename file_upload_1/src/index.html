@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>跑马场</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<h1>跑马场</h1>
+<form enctype="multipart/form-data" action="upload.php" method="post">
+<!--绑定表单元素-->
+<label for="file">请提交一只马:</label>
+<input id='file' type="file" name="file"/>
+<br/>
+
+<input type="submit" name="submit" value="Submit"/>
+</form>
+
+<script type="text/javascript">
+    function checkfile() {
+        //获取当前上传文件得后缀名
+        var file = document.getElementsByID('file').value;
+        var ext_name = file.substring(file.lastIndexOf(".") + 1);
+        //定义允许上传类型
+        var allow_ext = ".jpg|.png|.gif";
+        //文件类型对比
+        if (allow_ext.indexOf(ext_name) === -1) {
+            var errMsg = "该文件不允许上传，请上传" + allow_ext + "类型的文件,当前文件类型为：" + ext_name;
+            alert(errMsg);
+            return false;
+        }
+    }
+</script>
+
+</body>
+</html>
+

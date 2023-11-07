@@ -1,0 +1,9 @@
+version: "3"
+services:
+  challenge:
+    build: .
+    image: file_upload_1
+    ports:
+      - "10800:80"
+    environment:
+      - FLAG=ctfhub{test_flag}

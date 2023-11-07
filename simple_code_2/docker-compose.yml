@@ -1,0 +1,9 @@
+version: "3"
+services:
+  challenge:
+    build: .
+    image: simple_code_2
+    ports:
+      - "10800:80"
+    environment:
+      - FLAG=ctfhub{test_flag}
