@@ -2,107 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaee7983-8582-440e-b902-c78c27c564f9" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/choose_wife/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/src/deal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/src/duixiang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/src/img/wife.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/src/mp3/fa.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/choose_wife/src/mp3/shijian.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker_run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_upload_1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_upload_1/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_upload_1/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_upload_1/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_upload_1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_upload_1/src/upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_response/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_response/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_response/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_response/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_response/src/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_response/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_5.6/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_5.6/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_5.6/files/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_5.6/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_5.6/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_5.6/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_7.4/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_7.4/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_7.4/files/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_7.4/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_7.4/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_mysql_php_7.4/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_5.6/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_5.6/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_5.6/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_5.6/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_5.6/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_7.4/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_7.4/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_7.4/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_7.4/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_httpd_php_7.4/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_5.6/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_5.6/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_5.6/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_5.6/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_5.6/files/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_5.6/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_7.4/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_7.4/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_7.4/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_7.4/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_7.4/files/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_mysql_php_7.4/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_5.6/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_5.6/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_5.6/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_5.6/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_5.6/files/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_5.6/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_7.4/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_7.4/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_7.4/files/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_7.4/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_7.4/files/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent_image/web_nginx_php_7.4/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_1/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_1/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_1/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_1/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_2/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_2/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_2/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_code_2/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/src/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_sql_1/src/sql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source_look/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source_look/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source_look/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source_look/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source_look/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy_php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy_php/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy_php/files/flag.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy_php/files/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy_php/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2XqOWCsXOw5WPLVjkjUO7lI44yn" />
   <component name="ProjectLevelVcsManager">
@@ -133,16 +46,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simple_code_2/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/easy_php/src" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\phpstudy_pro\WWW\CTFd_Web\easy_php\src" />
+      <recent name="E:\phpstudy_pro\WWW\CTFd_Web\easy_php" />
       <recent name="E:\phpstudy_pro\WWW\CTFd_Web\simple_code_2\src" />
       <recent name="E:\phpstudy_pro\WWW\CTFd_Web\simple_code_2" />
       <recent name="E:\phpstudy_pro\WWW\CTFd_Web\file_upload\src" />
-      <recent name="E:\phpstudy_pro\WWW\CTFd_Web\file_upload" />
-      <recent name="E:\phpstudy_pro\WWW\CTFd_Web\source_look\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\phpstudy_pro\WWW\CTFd_Web\parent_image" />
@@ -166,6 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699353172436</updated>
       <workItem from="1699353173600" duration="6866000" />
+      <workItem from="1699368337427" duration="775000" />
+      <workItem from="1699496667094" duration="5945000" />
+      <workItem from="1699512693689" duration="826000" />
     </task>
     <servers />
   </component>
@@ -182,6 +98,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
