@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaee7983-8582-440e-b902-c78c27c564f9" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/easy_php/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy_php/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy_php/files/flag.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy_php/files/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy_php/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker_run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/easy_php/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -82,6 +80,7 @@
       <workItem from="1699368337427" duration="775000" />
       <workItem from="1699496667094" duration="5945000" />
       <workItem from="1699512693689" duration="826000" />
+      <workItem from="1699517330604" duration="428000" />
     </task>
     <servers />
   </component>

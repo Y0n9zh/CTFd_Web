@@ -10,19 +10,19 @@ read -p "请输入选项的编号 (1-3): " choice
 case $choice in
   1)
     find parent_image -name "docker-compose.yml" -execdir docker-compose -f {} build \;
-    echo "docker-compose parent_image up !"
     docker rmi $(docker images -f "dangling=true" -q)
+    echo "docker-compose parent_image up !"
     ;;
   2)
     find -not -path "./parent_image/*" -name "docker-compose.yml" -execdir docker-compose -f {} build \;
-    echo "docker-compose topic up !"
     docker rmi $(docker images -f "dangling=true" -q)
+    echo "docker-compose topic up !"
     ;;
   3)
     find parent_image -name "docker-compose.yml" -execdir docker-compose -f {} build \;
     find -not -path "./parent_image/*" -name "docker-compose.yml" -execdir docker-compose -f {} build \;
+    docker rmi $(docker images -f "dangling=true" -q
     echo "docker-compose all up"
-    docker rmi $(docker images -f "dangling=true" -q)
     ;;
   *)
     echo "Invalid option !"
