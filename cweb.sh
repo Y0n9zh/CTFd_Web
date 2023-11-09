@@ -20,8 +20,9 @@ highlight "2. Build Docker-Web sub-image"
 highlight "3. Delete Docker-Web parent-image"
 highlight "4. Delete Docker-Web sub-image"
 highlight "5. Delete dangling image"
+highlight "6. View Docker-Web parent-image or sub-image"
 
-read -e -p "Please enter the option number (1-5): " choice
+read -e -p "Please enter the option number (1-6): " choice
 
 case $choice in
   1)
@@ -136,6 +137,21 @@ case $choice in
       highlight "$num - $image_name"
       ((num++))
     done
+    ;;
+  6)
+    read -e -p "View Docker-Web parent-image or sub-image (y-1|n-2): " select
+    num=1;
+    if [ $select = 'y' ] || [ $select = "1" ] 2>/dev/null; then
+      for image_name in $(docker images --format "{{.Repository}}" | grep ctfhub); do
+        highlight "$num - $image_name"
+        ((num++))
+      done
+    elif [ $select = 'n' ] || [ $select = "2" ] 2>/dev/null; then
+      for image_name in $(docker images --format "{{.Repository}}" | grep -v ctfhub); do
+        highlight "$num - $image_name"
+        ((num++))
+      done
+    fi
     ;;
   *)
     echo "Invalid option !"
