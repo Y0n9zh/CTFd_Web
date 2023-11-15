@@ -23,20 +23,21 @@ def generate_jwt(username):
 @app.route('/')
 def index():
 	a = '''
-	访问url /get_jwt/你的用户名 去获得你的jwt</br>
-	访问url /get_flag/你的jwt 去获得flag</br>
-	实在做不出来看看hint吧 /hint
+	第一步：访问 http://xxx.xxx.xxx.xxx:xx/get_jwt/username，去获取属于你的 JWT</br>
+	第二步：访问 http://xxx.xxx.xxx.xxx:xx/get_flag/JWT，去获得 flag</br>
+
+	实在做不出来看看 hint 吧 - http://xxx.xxx.xxx.xxx:xx/hint
 	'''
 	return a
 
 @app.route('/hint')
 def hint():
-	return "可以猜解出来的jwt密钥哦!"
+	return "可以猜解出来 JWT 密钥哦!"
 
 @app.route('/get_jwt/<username>',methods=['GET'])
 def get_jwt(username):
     if username == "admin":
-        return "你个小机灵鬼,别想直接获得管理员的权限!</br>试试别的方法!"
+        return "你个小机灵鬼，别想直接获得管理员的权限!</br>试试别的方法!"
     user_jwt = username
     strings = 'Here is your jwt: ' + generate_jwt(user_jwt)
     return strings
@@ -47,9 +48,9 @@ def get_flag(jwt_token):
     username = info["name"]
     if username == "admin":
         flag = readflag()
-        return f"恭喜你,flag是{flag}"
+        return f"恭喜你 flag 是：{flag}"
     else:
-    	return "只有admin的权限才能获取flag"
+    	return "只有 admin 的权限才能获取 flag"
     return info
 
 if __name__=="__main__":

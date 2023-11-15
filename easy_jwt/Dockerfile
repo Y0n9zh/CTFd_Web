@@ -1,4 +1,4 @@
-FROM ctfhub_base/misc_python_3.11
+FROM ctfhub_base/python_3.11_flask
 
 COPY src/ /app/
 COPY files/flag.sh /flag.sh
